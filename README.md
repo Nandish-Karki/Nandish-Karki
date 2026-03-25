@@ -1,16 +1,22 @@
-## Hi there 👋
+### Hi, I'm Nandish 
 
-<!--
-**Nandish-Karki/Nandish-Karki** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+Data Engineer · AI/ML Builder · M.Sc. Data & Knowledge Engineering @ OvGU Magdeburg
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+I build things at the intersection of data infrastructure and applied AI.
+3.5 years of production experience — ETL pipelines, cloud data platforms, and ML-driven products.
+
+
+**What I'm working on**
+-  LISA — real-time multilingual speech translation (ASR → MT → TTS, Docker microservices)
+-  AI Learning Assistant — full-stack RAG app (Gemini 2.5 Flash + LLaMA 3.2 + React)
+-  Audio Steganalysis — WaveCNN deep learning model for detecting hidden audio messages
+
+
+**Core stack**
+Python · PySpark · SQL · AWS (Glue/Redshift/S3) · PyTorch · LangChain · ChromaDB · Docker · React
+
+
+ nkarki2791@gmail.com · linkedin.com/in/nandish-karki
+
