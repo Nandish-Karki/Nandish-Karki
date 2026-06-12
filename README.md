@@ -20,11 +20,6 @@
 
 - **[NYC Airbnb Dashboard](https://github.com/Nandish-Karki/nyc-airbnb-dashboard)** – Interactive Streamlit analytics on 49K+ listings
 
----
-
-## Stack
-
-Python · JavaScript · SQL · PySpark · PyTorch · CrewAI · LangChain · AWS · Docker · React · Flask · Streamlit
 
 ---
 
