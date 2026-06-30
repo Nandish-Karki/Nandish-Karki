@@ -14,11 +14,7 @@
 
 - **[AI-Based-Learning-Assistant](https://github.com/Nandish-Karki/AI-Based-Learning-Assistant)** – Full-stack RAG platform with Firebase auth (React, Flask, Gemini, ChromaDB)
 
-- **[LISA - Speech Translation](https://github.com/Nandish-Karki/speech-to-speech-translation)** – Real-time multilingual speech translation (Whisper, OPUS-MT, Coqui TTS)
-
 - **[Audio Steganalysis](https://github.com/Nandish-Karki/stego-detection)** – Deep learning detection of hidden audio messages (~77% accuracy)
-
-- **[NYC Airbnb Dashboard](https://github.com/Nandish-Karki/nyc-airbnb-dashboard)** – Interactive Streamlit analytics on 49K+ listings
 
 
 ---
