@@ -78,7 +78,6 @@ A full-stack analytics platform that lets users query CSV files and live Postgre
 - 89-test suite with 100% passing tests
 
 🔗 [Live Demo →](https://natural-language-data-analyst.vercel.app/)  
-💻 [GitHub →](https://github.com/Nandish-Karki/LexiQuery)
 
 ---
 
