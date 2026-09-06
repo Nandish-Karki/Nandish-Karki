@@ -58,28 +58,27 @@ A multi-agent planning system for generating study plans from programme rules, c
 - Structured programme-rule reasoning
 - Deterministic Python-side validation for constraints and calculations
 - Designed to keep critical logic outside probabilistic model output
-
+  
+🔗 [Live Demo →](https://agentic-study-planner.vercel.app) 
 [View project →](https://github.com/Nandish-Karki/Agentic-Study-Planner)
 
 ---
 
-### 🎙️ LISA — Speech-to-Speech Translation Microservices
+### 🔎 LexiQuery — Natural Language SQL Analytics SaaS
 
-A real-time speech translation pipeline combining:
-
-**Whisper → OPUS-MT → Piper**
-
-Built as modular services with local and containerized execution.
+A full-stack analytics platform that lets users query CSV files and live PostgreSQL/MySQL databases using natural language, translating questions into SQL and turning results into interactive visualizations.
 
 **Highlights**
-- Speech recognition
-- Machine translation
-- Text-to-speech
-- Dockerized microservices
-- Real-time processing pipeline
-- Modular service boundaries
+- Built with FastAPI, React/TypeScript, PostgreSQL and DuckDB, with OpenAI GPT-4o for NL→SQL and an average response time under 2 seconds
+- Designed a deterministic 18-type chart inference engine that selects visualizations from SQL result structure without additional LLM calls
+- Implemented multi-tenant guest sessions, per-user data isolation, quotas and ephemeral dataset lifecycle management
+- Added read-only live database access with encrypted connection credentials and SQL-safe connection handling
+- Production security with bcrypt, JWT refresh-token rotation, rate limiting, CSP/HSTS headers, Sentry, Bandit and pip-audit
+- Dockerized CI/CD with GitHub Actions and Render deployment
+- 89-test suite with 100% passing tests
 
-[View project →](https://github.com/Nandish-Karki/speech-to-speech-translation)
+🔗 [Live Demo →](https://natural-language-data-analyst.vercel.app/)  
+💻 [GitHub →](https://github.com/Nandish-Karki/LexiQuery)
 
 ---
 
