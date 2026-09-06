@@ -1,26 +1,168 @@
-## Hi, I'm Nandish
+# Hi, I'm Nandish Karki 👋
 
-**Data Engineer · AI/ML Builder · M.Sc. Data & Knowledge Engineering @ OvGU Magdeburg**
+### Data Engineer · AI/ML Engineer · AI Systems Builder
 
-3.5+ years building production data infrastructure and AI/ML systems.
+I build **data and AI systems that are designed to be useful, measurable, and reliable** — from production data pipelines and retrieval systems to agentic applications, real-time AI services, and evaluation infrastructure.
+
+Currently completing my **M.Sc. in Data & Knowledge Engineering at Otto von Guericke University Magdeburg (OvGU)**, with a focus on building practical AI/ML and data systems.
+
+---
+
+## What I Build
+
+- **AI Evaluation & Reliability** — evaluation frameworks, regression detection, LLM-as-a-Judge, retrieval evaluation, calibration and reproducibility
+- **RAG & Agentic Systems** — retrieval-augmented applications, multi-agent workflows, structured validation and tool-based reasoning
+- **Data Engineering** — ETL pipelines, distributed processing, data transformation and cloud-based data workflows
+- **AI/ML Systems** — deep learning, NLP, speech processing, model inference and AI microservices
+- **Production Engineering** — Dockerized services, APIs, testing, observability-oriented workflows and deployment automation
 
 ---
 
 ## Featured Projects
 
-- **[Agentic-Codebase-Explainer](https://github.com/Nandish-Karki/Agentic-Codebase-Explainer)** – 6-agent CrewAI crew for instant codebase documentation (CrewAI, Groq, Python)
+### 🔍 Proof — AI Evaluation & Regression Detection Framework
 
-- **[Agentic-Study-Planner](https://github.com/Nandish-Karki/Agentic-Study-Planner)** – AI-powered semester study plans from CVs & transcripts (CrewAI, Groq, PyPDF2)
+An open-source framework for evaluating AI systems and detecting regressions across **answer quality, retrieval quality, judges, cost, latency and reproducibility**.
 
-- **[AI-Based-Learning-Assistant](https://github.com/Nandish-Karki/AI-Based-Learning-Assistant)** – Full-stack RAG platform with Firebase auth (React, Flask, Gemini, ChromaDB)
+**Highlights**
+- Deterministic and configurable evaluation
+- Recall@K, MRR, nDCG and graded retrieval relevance
+- LLM-as-a-Judge with structured validation
+- Judge caching and provenance tracking
+- Human calibration
+- Python and HTTP target adapters
+- Baseline comparison and configurable regression gates
+- JSON/Markdown reporting and CLI workflows
 
-- **[Audio Steganalysis](https://github.com/Nandish-Karki/stego-detection)** – Deep learning detection of hidden audio messages (~77% accuracy)
+**External validation:**  
+I built an independent RAG system and changed retrieval from **TOP_K=5 → TOP_K=1**. The generated answers remained byte-identical across all 26 cases, while retrieval quality dropped:
 
+- Recall@3: **0.979 → 0.917**
+- Recall@5: **0.979 → 0.917**
+- nDCG: **0.997 → 0.970**
+
+Proof detected the regression even though the final answers did not change.
+
+[View Proof →](https://github.com/Nandish-Karki/proof)  
+[View external RAG validation →](https://github.com/Nandish-Karki/proof-demo-rag)
+
+---
+
+### 🤖 Agentic Study Planner
+
+A multi-agent planning system for generating study plans from programme rules, course information and student constraints.
+
+**Highlights**
+- Multi-agent analysis and planning
+- Parallel specialist agents
+- Structured programme-rule reasoning
+- Deterministic Python-side validation for constraints and calculations
+- Designed to keep critical logic outside probabilistic model output
+
+[View project →](https://github.com/Nandish-Karki/Agentic-Study-Planner)
+
+---
+
+### 🎙️ LISA — Speech-to-Speech Translation Microservices
+
+A real-time speech translation pipeline combining:
+
+**Whisper → OPUS-MT → Piper**
+
+Built as modular services with local and containerized execution.
+
+**Highlights**
+- Speech recognition
+- Machine translation
+- Text-to-speech
+- Dockerized microservices
+- Real-time processing pipeline
+- Modular service boundaries
+
+[View project →](https://github.com/Nandish-Karki/speech-to-speech-translation)
+
+---
+
+### 📚 AI-Based Learning Assistant
+
+A full-stack RAG-based learning assistant combining document retrieval, semantic search and generative AI.
+
+**Highlights**
+- Retrieval-Augmented Generation
+- Vector search
+- Semantic embeddings
+- Full-stack application architecture
+- AI-assisted learning workflows
+- Multiple model/service integrations
+
+[View project →](https://github.com/Nandish-Karki/AI-Based-Learning-Assistant)
+
+---
+
+### 🧠 Audio Steganalysis
+
+A deep-learning project for detecting and removing LSB-based audio steganography.
+
+**Highlights**
+- PyTorch
+- WaveCNN
+- Autoencoders / denoising autoencoders
+- Audio preprocessing and reconstruction
+- Steganalysis experiments
+- Docker / Gradio workflow
+
+[View project →](https://github.com/Nandish-Karki/stego-detection)
+
+---
+
+## Technical Focus
+
+### Data Engineering
+`Python` `SQL` `PySpark` `AWS` `Glue` `Redshift` `Airflow` `ETL`
+
+### AI / ML
+`PyTorch` `NLP` `RAG` `LLM` `LLM-as-a-Judge` `Information Retrieval` `Deep Learning`
+
+### AI Systems
+`Multi-Agent Systems` `FastAPI / APIs` `Microservices` `Docker` `Evaluation` `Regression Testing`
+
+### Engineering
+`Git` `Testing` `CI/CD Concepts` `Linux` `REST APIs` `Cloud`
+
+---
+
+## A Few Things I Care About
+
+**Correctness over demos.**  
+I like building systems where important behavior can be tested and measured instead of assumed.
+
+**Deterministic logic around probabilistic systems.**  
+When an LLM is involved, I prefer keeping critical validation, constraints and measurable checks outside the model wherever practical.
+
+**Evaluation as part of engineering.**  
+An AI system isn't finished when it produces an answer. I want to know whether it continues to produce good answers after the next change.
+
+**Simple systems that can be understood.**  
+I prefer clear interfaces, explicit contracts and small components over unnecessary complexity.
+
+---
+
+## Currently
+
+🎓 **M.Sc. Data & Knowledge Engineering — OvGU Magdeburg**  
+📍 Magdeburg, Germany
+
+Interested in opportunities around:
+
+**Data Engineering · AI/ML Engineering · AI Infrastructure · Backend Engineering · RAG / LLM Systems**
 
 ---
 
 ## Connect
 
-📧 nkarki2791@gmail.com | 💼 [LinkedIn](https://linkedin.com/in/nandish-karki) | 🐙 [GitHub](https://github.com/Nandish-Karki)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/nandish-karki/)  
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-black?style=flat-square&logo=google-chrome)](https://nandish-portfolio-two.vercel.app/)
 
-Open to collaborations on data infrastructure & agentic AI systems.
+---
+
+> Build it. Measure it. Improve it.
