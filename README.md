@@ -1,10 +1,12 @@
 # Hi, I'm Nandish Karki 👋
 
-### Data Engineer · AI/ML Engineer · AI Systems Builder
+### Software Engineer · Data & AI Engineer · AI Systems Builder
 
 I build **data and AI systems that are designed to be useful, measurable, and reliable** — from production data pipelines and retrieval systems to agentic applications, real-time AI services, and evaluation infrastructure.
 
-Currently completing my **M.Sc. in Data & Knowledge Engineering at Otto von Guericke University Magdeburg (OvGU)**, with a focus on building practical AI/ML and data systems.
+I have **4.2+ years of engineering experience across industry and applied research**, including **3.2+ years at Clarivate Analytics** building and optimizing production data/ETL pipelines and **~1 year as a Research Assistant at OvGU** working on real-time AI systems in industry collaboration.
+
+Currently completing my **M.Sc. in Data & Knowledge Engineering at Otto von Guericke University Magdeburg (OvGU)**, with graduation expected in **October 2026**. I am actively seeking **full-time Data Engineering, AI/ML Engineering, Software Engineering, and AI Infrastructure roles starting November 2026**.
 
 ---
 
@@ -14,7 +16,7 @@ Currently completing my **M.Sc. in Data & Knowledge Engineering at Otto von Guer
 - **RAG & Agentic Systems** — retrieval-augmented applications, multi-agent workflows, structured validation and tool-based reasoning
 - **Data Engineering** — ETL pipelines, distributed processing, data transformation and cloud-based data workflows
 - **AI/ML Systems** — deep learning, NLP, speech processing, model inference and AI microservices
-- **Production Engineering** — Dockerized services, APIs, testing, observability-oriented workflows and deployment automation
+- **Production Engineering** — Dockerized services, APIs, testing, monitoring and deployment workflows
 
 ---
 
@@ -34,7 +36,8 @@ An open-source framework for evaluating AI systems and detecting regressions acr
 - Baseline comparison and configurable regression gates
 - JSON/Markdown reporting and CLI workflows
 
-**External validation:**  
+**External validation**
+
 I built an independent RAG system and changed retrieval from **TOP_K=5 → TOP_K=1**. The generated answers remained byte-identical across all 26 cases, while retrieval quality dropped:
 
 - Recall@3: **0.979 → 0.917**
@@ -44,7 +47,8 @@ I built an independent RAG system and changed retrieval from **TOP_K=5 → TOP_K
 Proof detected the regression even though the final answers did not change.
 
 [View Proof →](https://github.com/Nandish-Karki/proof)  
-[View external RAG validation →](https://github.com/Nandish-Karki/proof-demo-rag)
+[View external RAG validation →](https://github.com/Nandish-Karki/proof-demo-rag)  
+[View v0.3.10 release →](https://github.com/Nandish-Karki/proof/releases/tag/v0.3.10)
 
 ---
 
@@ -57,10 +61,11 @@ A multi-agent planning system for generating study plans from programme rules, c
 - Parallel specialist agents
 - Structured programme-rule reasoning
 - Deterministic Python-side validation for constraints and calculations
-- Designed to keep critical logic outside probabilistic model output
-  
-🔗 [Live Demo →](https://agentic-study-planner.vercel.app) 
-[View project →](https://github.com/Nandish-Karki/Agentic-Study-Planner)
+- FastAPI backend and React/TypeScript frontend
+- Dockerized deployment
+
+🔗 [Live Demo →](https://agentic-study-planner.vercel.app)  
+💻 [View project →](https://github.com/Nandish-Karki/Agentic-Study-Planner)
 
 ---
 
@@ -69,15 +74,15 @@ A multi-agent planning system for generating study plans from programme rules, c
 A full-stack analytics platform that lets users query CSV files and live PostgreSQL/MySQL databases using natural language, translating questions into SQL and turning results into interactive visualizations.
 
 **Highlights**
-- Built with FastAPI, React/TypeScript, PostgreSQL and DuckDB, with OpenAI GPT-4o for NL→SQL and an average response time under 2 seconds
-- Designed a deterministic 18-type chart inference engine that selects visualizations from SQL result structure without additional LLM calls
-- Implemented multi-tenant guest sessions, per-user data isolation, quotas and ephemeral dataset lifecycle management
-- Added read-only live database access with encrypted connection credentials and SQL-safe connection handling
-- Production security with bcrypt, JWT refresh-token rotation, rate limiting, CSP/HSTS headers, Sentry, Bandit and pip-audit
-- Dockerized CI/CD with GitHub Actions and Render deployment
+- FastAPI + React/TypeScript + PostgreSQL + DuckDB with OpenAI GPT-4o for NL→SQL
+- Deterministic 18-type chart inference engine without additional LLM calls
+- Multi-tenant guest isolation, quotas and ephemeral dataset management
+- Secure read-only live database connections with encrypted credentials
+- bcrypt, JWT refresh-token rotation, rate limiting and security headers
+- Dockerized CI/CD with GitHub Actions
 - 89-test suite with 100% passing tests
 
-🔗 [Live Demo →](https://natural-language-data-analyst.vercel.app/)  
+🔗 [Live Demo →](https://natural-language-data-analyst.vercel.app/)
 
 ---
 
@@ -93,7 +98,7 @@ A full-stack RAG-based learning assistant combining document retrieval, semantic
 - AI-assisted learning workflows
 - Multiple model/service integrations
 
-[View project →](https://github.com/Nandish-Karki/AI-Based-Learning-Assistant)
+💻 [View project →](https://github.com/Nandish-Karki/AI-Based-Learning-Assistant)
 
 ---
 
@@ -109,23 +114,55 @@ A deep-learning project for detecting and removing LSB-based audio steganography
 - Steganalysis experiments
 - Docker / Gradio workflow
 
-[View project →](https://github.com/Nandish-Karki/stego-detection)
+💻 [View project →](https://github.com/Nandish-Karki/stego-detection)
 
 ---
 
 ## Technical Focus
 
 ### Data Engineering
+
 `Python` `SQL` `PySpark` `AWS` `Glue` `Redshift` `Airflow` `ETL`
 
 ### AI / ML
+
 `PyTorch` `NLP` `RAG` `LLM` `LLM-as-a-Judge` `Information Retrieval` `Deep Learning`
 
 ### AI Systems
-`Multi-Agent Systems` `FastAPI / APIs` `Microservices` `Docker` `Evaluation` `Regression Testing`
+
+`Multi-Agent Systems` `FastAPI` `Microservices` `Docker` `Evaluation` `Regression Testing`
 
 ### Engineering
-`Git` `Testing` `CI/CD Concepts` `Linux` `REST APIs` `Cloud`
+
+`Git` `Testing` `REST APIs` `Linux` `Cloud` `CI/CD`
+
+---
+
+## Professional Experience
+
+### Software Engineer — Clarivate Analytics
+
+**3.5+ years**
+
+Built and optimized production data and ETL systems, with work spanning data processing, pipeline performance and cloud-oriented workflows.
+
+### Research Assistant — OvGU Magdeburg
+
+**Oct 2025 – Oct 2026**
+
+Working on real-time AI systems and speech-to-speech translation in collaboration with industry, with a focus on AI inference, microservices, deployment and system performance.
+
+---
+
+## Education
+
+### M.Sc. Data & Knowledge Engineering — OvGU Magdeburg
+
+**Oct 2024 – Oct 2026 (Expected)**
+
+### B.E. Computer Science — Ramaiah Institute of Technology
+
+**Aug 2017 – Jul 2021**
 
 ---
 
@@ -148,19 +185,27 @@ I prefer clear interfaces, explicit contracts and small components over unnecess
 ## Currently
 
 🎓 **M.Sc. Data & Knowledge Engineering — OvGU Magdeburg**  
-📍 Magdeburg, Germany
+📅 **Expected completion: October 2026**  
+📍 **Magdeburg, Germany**
 
-Interested in opportunities around:
+### Seeking
 
-**Data Engineering · AI/ML Engineering · AI Infrastructure · Backend Engineering · RAG / LLM Systems**
+**Full-time Data Engineering · AI/ML Engineering · Software Engineering · AI Infrastructure roles**
+
+**Available from November 2026**
+
+Open to opportunities across **Germany and the EU**.
 
 ---
 
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/nandish-karki/)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/nandish-karki/)
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-black?style=flat-square&logo=google-chrome)](https://nandish-portfolio-two.vercel.app/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/Nandish-Karki)
 
 ---
 
-> Build it. Measure it. Improve it.
+> **Build it. Measure it. Improve it.**
