@@ -142,7 +142,7 @@ A deep-learning project for detecting and removing LSB-based audio steganography
 
 ### Software Engineer — Clarivate Analytics
 
-**3.5+ years**
+**3.2+ years**
 
 Built and optimized production data and ETL systems, with work spanning data processing, pipeline performance and cloud-oriented workflows.
 
